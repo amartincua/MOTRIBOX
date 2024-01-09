@@ -4,14 +4,6 @@
 
 void activ2() { 
 
-  // Codi per la demostració 
-  if (mousePressed) {
-    for (int i = 0; i < numFormes; i++) {
-      formes[i].aleatoriaFILA = formaObjectiuFILA ;
-      formes[i].aleatoriaCOLUMNA = formaObjectiuCOLUMNA;
-    }
-  }
-
   // Cronòmetre de temps que començarà a comptar el temps fins a la finalització de l'activitat 2.       
   timerACTIV2.start (true); 
   // Actualització del valor del cronòmetre anterior amb la funció update, utilitzant com a paràmetre el temps que ha passat.
